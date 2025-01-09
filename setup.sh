@@ -33,6 +33,6 @@ sudo snap install chromium
 
 # Clone the WhatsApp Sender repository
 echo "Cloning the WhatsApp Sender repository..."
-git clone https://github.com/francisgill1000/whatsapp-sender
+git clone https://github.com/akildevs1000/whatsapp-proxy
 
-echo "cd whatsapp-sender && npm i"
+echo "cd whatsapp-proxy && npm i"

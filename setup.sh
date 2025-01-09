@@ -23,9 +23,9 @@ sudo apt-get install -y \
   libxrandr2
 
 # Install Node.js
-echo "Installing Node.js..."
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-sudo apt install nodejs -y
+# echo "Installing Node.js..."
+# curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+# sudo apt install nodejs -y
 
 # Install Chromium browser via Snap
 echo "Installing Chromium..."

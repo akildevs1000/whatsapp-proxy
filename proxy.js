@@ -27,7 +27,7 @@ wss.on("connection", (ws) => {
         try {
           // Destroy the WhatsApp client instance
           await clients[clientId].whatsappClient.destroy();
-          
+
           console.log(`WhatsApp client destroyed for ID: ${clientId}`);
 
           // Send a success message back to the client
@@ -97,8 +97,8 @@ wss.on("connection", (ws) => {
   });
 });
 
-server.listen(3000, () => {
-  console.log("WebSocket server running on ws://localhost:3000");
+server.listen(3737, () => {
+  console.log("WebSocket server running on ws://localhost:3737");
 });
 
 async function init(ws, clientId) {
@@ -209,7 +209,7 @@ app.get("/server", (req, res) => {
 });
 
 // Start the server
-const port = 3001;
+const port = 3738;
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
